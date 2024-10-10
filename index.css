@@ -1,0 +1,48 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.user-container {
+    /*display: grid;
+    grid-template-columns: repeat(3, 400px);
+    gap: 20px;*/
+    display:flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+}
+
+.card {
+    /*display: flex;
+    flex-direction: column;*/
+    flex: 1 0 40%;
+    min-width: 250px;
+    min-height: 260px;
+    margin: 10px;
+    background: linear-gradient(to right, rgba(196, 245, 243, 0.333), rgb(197, 197, 247) 70%, rgb(198, 255, 240));
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: grid;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 0;
+    border-radius: 50%;
+    background: linear-gradient(to top, #ffd3a1, rgb(255, 221, 126) 70%);
+}
+
+h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+p, em {
+    text-align: center;
+    font-weight: 700;
+}
